@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--Declaracion para que el navegador sepa que es un archivo HTML-->
+
+
+
+<head>
+     <title>Página de gatitos y perritos</title>
+     <meta charset= "UTF-8">
+     <link href="estilos.css" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,400&display=swap" rel="stylesheet">
+</head>
+ 
+<body>
+<h1 class="titulo">Página de Gatitos y Perritos</h1>
+<h3 class="subtitulo">Imágenes de Gatitos y Perritos</h3>
+
+
+<!--Imagen desde la web-->
+<div class="contenedor">  
+<img class="img1"src="https://www.mundogato.net/wp-content/uploads/gifs-de-gatitos-1200x800.jpg">
+
+<!--imagenes desde la computadora-->
+
+<img class="img2" src="imagenes/gatitomiron.jpg">
+<br>
+<img class="img3" src="imagenes/dog-72333_640.jpg">
+<img class="img4" src="imagenes/poppy.jpeg">
+</div>
+
+<!--Enlaces externos-->
+<!--para que el enlace externo no se abra en la misma pagina y se abra el enlace externo en otra pestaña le agregamos enseguida del enlace la palabra target"_blank"-->
+<p>Si quieres ver más imagenes de gatitos y perritos,<a href="https://www.istockphoto.com/es/fotos/perros-y-gatos" target="_blank">da click en este enlace</a>.</p> 
+
+ 
+<!--listas-->
+<!--lista ordenada-->  
+<!--se usa la palabra strong antes de la palabra que queremos que se ponga mas negrita-->
+
+<h3>Listas de Gatitos</h3>
+<p>3 Cosas que los gatitos
+<strong>aman.</strong></p>
+
+<ol>
+     <!--"ol" siginifica ordered list-->
+     <li>Dormir</li>
+     <li>jugar</li>
+     <li>Comer</li>
+</ol>
+
+<!--Lista desordenada-->
+<!--la etiqueta <em> se ultiliza para resaltar en cursiva una palabra-->
+<P>3 Cosas que los Gatitos <em>odian</em>.</P>
+<ul>
+     <!-- "ul" significa unordered list-->
+     <li>Bañarse</li>
+     <li>Tener frio</li>
+     <li>Tener hambre</li>
+</ul>
+
+<!--Formularios-->
+<form>
+     <h3>Formularios</h3>
+     <!--Forms de botones de radio-->
+
+     <P>¿Tu mascota es cachorro o adulto?</P>
+     <label>
+          <input 
+          id="cachorro"
+          type="radio"
+          value="cachorro"
+          name="cachorro-adulto">Cachorro
+     </label>
+     <br>
+     <label>
+          <input 
+          id="Adulto"
+          type="radio"
+          value="Adulto"
+          name="cachorro-adulto">Adulto
+     </label>    
+
+          <!--Forms con checks-->
+          <P>¿Que tipo de personalidad tiene tu gatito o tu perrito?
+          </P>
+
+     <label>
+          <input id="Enojon"
+          type="checkbox"
+          value="Enojon"
+          name="personalidad"> Enojón
+     </label>
+     <br>
+     <label>
+          <input id="Perezoso"
+          type="checkbox"
+          value="Perezoso"
+          name="personalidad">Perezoso
+     </label>
+     <br>
+     <label>
+          <input id="Juguetón"
+          type="checkbox"
+          value="Juguetón"
+          name="personalidad">Juguetón
+     </label>
+          
+     
+</form>
+
+</body>
+
+<footer>
+     <p>
+     <small>
+          Esta pagina fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO.</a>
+     </small>
+     </p>
+</footer>

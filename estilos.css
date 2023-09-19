@@ -1,0 +1,65 @@
+/*Asi se escribe un comentario*/
+body{
+background-color:#ddd4c7;
+color:black;
+font-family: 'Raleway', sans-serif;
+}
+
+/*para cambiar el color al titulo o encabezado se escribe h1{color: ;}*/
+/* Y de los otros textos si son h3 pues se ponen igual como en el anterior*/
+h1 {
+    color:#0063eb;
+}
+.titulo{
+    text-align: center;
+}
+
+h3{
+    color:#b9266f;
+}
+.subtitulo{
+    text-align: center;
+}
+p{
+    color:#0e0d0e;
+}
+
+.img1,.img2{
+    width: 300px;
+    height: 250px;
+    border-style: double;
+    border-color: #b9266f;
+    border-width: 5px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.img3,.img4{
+    width: 300px;
+    height: 250px;
+    border-style: double;
+    border-color: #b9266f;
+    border-width: 5px;
+    padding: 30px;
+    margin: 30px;
+
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+small{
+    color:#170c89ec;
+}
+
+ 
+
+
+
+
+ 
+
+ 
